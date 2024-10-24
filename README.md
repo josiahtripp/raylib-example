@@ -1,4 +1,4 @@
-# Raylib-linux-template-1
+# Raylib-linux-template
 
 This repository serves as a simple template for the raylib graphics library.
 The primary goal of this template is to be self contained, meaning that the
@@ -21,6 +21,7 @@ Source Repository: https://github.com/raysan5/raylib
 Raylib requires the opengl library to link properly
 
 To install on linux: `sudo apt-get install mesa-utils freeglut3-dev`
+
 *The CS1 machines already have this library installed
 
 ## Compiling
