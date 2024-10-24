@@ -2,7 +2,7 @@
 
 This repository serves as a simple template for the raylib graphics library.
 The primary goal of this template is to be self contained, meaning that the
-number of dependencies for compilation has been minizmized.
+number of external dependencies for compilation has been minizmized.
 
 The example program is written in c & includes a single source file and a simple makefile that
 compiles & links statically to the raylib library.
