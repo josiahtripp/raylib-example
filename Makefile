@@ -7,7 +7,7 @@ CC = g++ # Specify the compiler you wish to use
 CFLAGS = -Wall -Wextra # List any compiler (warning) flags you wish to use
 
 # Specify Files
-SRC_FILES = src/main.cpp # List all source files (include src/ directory)
+SRC_FILES = src/main.c # List all source files (include src/ directory)
 OBJ_FILES = main.o  # List all object files (omit src/ directory)
 
 # Specify include directoriy / lib archive file path
@@ -25,7 +25,7 @@ BINARY = program # Give a name for the compiled executible
 
 default: compile_&_link
 
-# Compile & link
+# Compile & link ("-lGL" links to the opengl library, dependency of raylib)
 compile_&_link:
 	$(CC) $(CFLAGS) -I $(I_DIR) -c $(SRC_FILES)
 	$(CC) $(CFLAGS) -o $(BINARY) $(OBJ_FILES) $(LIB_FILE) -lGL
